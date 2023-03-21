@@ -1,16 +1,3 @@
-class Book {
-  constructor(title, author) {
-    this.title = title;
-    this.author = author;
-  }
-
-  remove(books) {
-    const updatedBooks = books.filter(book => book.title !== this.title);
-    localStorage.setItem('books', JSON.stringify(updatedBooks));
-    return updatedBooks;
-  }
-}
-
 class BookList {
   constructor() {
     this.books = JSON.parse(localStorage.getItem('books')) || [];
@@ -18,7 +5,7 @@ class BookList {
     this.titleInput = document.getElementById('title');
     this.authorInput = document.getElementById('author');
 
-    document.getElementById('book-form').addEventListener('submit', e => {
+    document.getElementById('book-form').addEventListener('submit', (e) => {
       e.preventDefault();
       this.addBook();
     });
@@ -27,7 +14,16 @@ class BookList {
   }
 
   addBook() {
-    const book = new Book(this.titleInput.value, this.authorInput.value);
+    const book = {
+      title: this.titleInput.value,
+      author: this.authorInput.value,
+      remove: () => {
+        this.books = this.books.filter((b) => b.title !== book.title);
+        localStorage.setItem('books', JSON.stringify(this.books));
+        this.displayBooks();
+      },
+    };
+
     this.books.push(book);
     localStorage.setItem('books', JSON.stringify(this.books));
     this.displayBooks();
@@ -38,7 +34,7 @@ class BookList {
   displayBooks() {
     this.bookList.innerHTML = '';
 
-    this.books.forEach(book => {
+    this.books.forEach((book) => {
       const div = document.createElement('div');
 
       const title = document.createElement('span');
@@ -59,8 +55,7 @@ class BookList {
       div.appendChild(document.createElement('br'));
 
       removeBtn.addEventListener('click', () => {
-        this.books = book.remove(this.books);
-        this.displayBooks();
+        book.remove();
       });
 
       this.bookList.appendChild(div);
@@ -69,3 +64,4 @@ class BookList {
 }
 
 const bookList = new BookList();
+console.log(bookList);
