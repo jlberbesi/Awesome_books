@@ -64,4 +64,7 @@ class BookList {
 }
 
 const bookList = new BookList();
-console.log(bookList);
+
+bookList.addEventListener('DOMContentLoaded', () => {
+  BookList();
+});
