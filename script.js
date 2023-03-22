@@ -33,34 +33,30 @@ class BookList {
 
   displayBooks() {
     this.bookList.innerHTML = '';
-
-    this.books.forEach((book) => {
-      const div = document.createElement('div');
-
+  
+    this.books.forEach((book,) => {
+      const li = document.createElement('li');
+      li.classList.add('book'); // Agregar la clase "book" al li
+  
       const title = document.createElement('span');
       title.textContent = book.title;
-      div.appendChild(title);
-      div.appendChild(document.createElement('br'));
-
+      li.appendChild(title);
+  
       const author = document.createElement('span');
       author.textContent = book.author;
-      div.appendChild(author);
-      div.appendChild(document.createElement('br'));
-      div.appendChild(document.createElement('hr'));
-
+      li.appendChild(author);
+  
       const removeBtn = document.createElement('button');
       removeBtn.textContent = 'Remove';
-      div.appendChild(removeBtn);
-      div.appendChild(document.createElement('br'));
-      div.appendChild(document.createElement('br'));
-
+      li.appendChild(removeBtn);
+  
       removeBtn.addEventListener('click', () => {
         book.remove();
       });
-
-      this.bookList.appendChild(div);
+  
+      this.bookList.appendChild(li);
     });
-  }
+  }  
 }
 
 const bookList = new BookList();
