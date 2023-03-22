@@ -147,6 +147,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+This project is [MIT](https://github.com/jlberbesi/Awesome_books.github.io/blob/refactored_classes/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
