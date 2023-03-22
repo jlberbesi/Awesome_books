@@ -33,30 +33,30 @@ class BookList {
 
   displayBooks() {
     this.bookList.innerHTML = '';
-  
-    this.books.forEach((book,) => {
+
+    this.books.forEach((book) => {
       const li = document.createElement('li');
       li.classList.add('book'); // Agregar la clase "book" al li
-  
+
       const title = document.createElement('span');
       title.textContent = book.title;
       li.appendChild(title);
-  
+
       const author = document.createElement('span');
       author.textContent = book.author;
       li.appendChild(author);
-  
+
       const removeBtn = document.createElement('button');
       removeBtn.textContent = 'Remove';
       li.appendChild(removeBtn);
-  
+
       removeBtn.addEventListener('click', () => {
         book.remove();
       });
-  
+
       this.bookList.appendChild(li);
     });
-  }  
+  }
 }
 
 const bookList = new BookList();
