@@ -36,7 +36,7 @@ class BookList {
 
     this.books.forEach((book) => {
       const li = document.createElement('li');
-      li.classList.add('book'); // Agregar la clase "book" al li
+      li.classList.add('book');
 
       const title = document.createElement('span');
       title.textContent = book.title;

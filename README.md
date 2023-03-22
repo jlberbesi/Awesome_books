@@ -43,6 +43,7 @@ HTML and Javascript vanilla.
 ### Key Features <a name="key-features"></a>
 
 - **[Plain JS with objects]**
+- **[JavaScript classes]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -61,7 +62,7 @@ Walking through portfolio outline.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link] [#](#)
+- [Live Demo Link] [https://jlberbesi.github.io/Awesome_books.github.io/](https://jlberbesi.github.io/Awesome_books.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,6 +81,13 @@ https://github.com/
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
+
+👤 ** Marco Almada **
+
+- GitHub: [@MarcoDDM](https://github.com/MarcoDDM)
+- Twitter: [@nerdpiola](https://twitter.com/nerdpiola)
+- LinkedIn: [in/marcoalmadaar](https://www.linkedin.com/in/marcoalmadaar/)
+
 
 👤 ** Jose Luis Berbesí **
 
@@ -139,6 +147,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
