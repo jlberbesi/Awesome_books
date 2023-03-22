@@ -43,7 +43,7 @@ class BookList {
       li.appendChild(title);
 
       const author = document.createElement('span');
-      author.textContent = book.author;
+      author.textContent = ` by ${book.author}`;
       li.appendChild(author);
 
       const removeBtn = document.createElement('button');
