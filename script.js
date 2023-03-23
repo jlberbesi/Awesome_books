@@ -23,13 +23,20 @@ class BookList {
         this.displayBooks();
       },
     };
-
+  
     this.books.push(book);
     localStorage.setItem('books', JSON.stringify(this.books));
     this.displayBooks();
     this.titleInput.value = '';
     this.authorInput.value = '';
+  
+    const message = document.createElement('p');
+    message.textContent = 'A new book was added';
+    message.classList.add('message');
+    document.getElementById('book-form').appendChild(message);
+    setTimeout(() => message.remove(), 3000);
   }
+  
 
   displayBooks() {
     this.bookList.innerHTML = '';
