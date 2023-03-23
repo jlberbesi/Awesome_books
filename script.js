@@ -26,6 +26,10 @@ class BookList {
     this.displayBooks();
     this.titleInput.value = '';
     this.authorInput.value = '';
+<<<<<<< HEAD
+=======
+
+>>>>>>> d8753604ecc2ae71d7d6e735254ffcca6ab9d1f4
     const message = document.createElement('p');
     message.textContent = 'A new book was added';
     message.classList.add('message');
