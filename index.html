@@ -9,12 +9,13 @@
   <title>Awesome books</title>
 </head>
 
-<body>
+<body onload="displayDate()">
   <nav class="navbar">
     <ul>
       <li><a href="#" id="add">Add book</a></li>
       <li><a href="#" id="list">Book List</a></li>
       <li><a href="#" id="contact-info">Contact</a></li>
+      <p id="date"></p>
     </ul>
   </nav>
 
@@ -33,11 +34,17 @@
   </section>
 
   <section id="contact" class="contact-section">
-    <h1>Contact information</h1>
+    <h1>Contact information</h1><br>
+    <p>Do have any questions or you just want to say "Hello"? <br>You can reach out to us!</p><br>
+    <ul>
+      <li>Our e-mail: mail@mail.com</li>
+      <li>Our phone number 004358653622</li>
+      <li>Our address: StreetName 22, 84503 City, Country</li>
+    </ul>
   </section>
 
   <footer>
-    <p>lalalalalal</p>
+    <p>Copyright 2020</p>
   </footer>
 
   <script type="module" src="script.js"></script>
