@@ -1,5 +1,5 @@
 const bookForm = document.getElementById('book-form');
-const bookLists = document.getElementById('book-list');
+const bookLists = document.getElementById('book-section');
 const contact = document.getElementById('contact');
 
 const add = document.getElementById('add');
