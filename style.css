@@ -89,7 +89,7 @@ a {
   padding-right: 10px;
 }
 
-.date-float{
+.date-float {
   float: right;
   padding-left: 80%;
 }
@@ -116,18 +116,15 @@ footer {
 }
 
 .list {
-
   display: block;
   flex-direction: column;
 }
 
 .list li {
-
-  list-style-type: square; 
+  list-style-type: square;
 }
 
-nav p{
-  
+nav p {
   padding-right: 68%;
   font-weight: 700;
 }
