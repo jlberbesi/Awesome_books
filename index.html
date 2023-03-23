@@ -10,20 +10,39 @@
 </head>
 
 <body>
-  <nav class="navbar"></nav>
-  <div class="book-form">
-    <h1>Awesome Books</h1>
-    <div id="book-list"></div>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#" id="add">Add book</a></li>
+      <li><a href="#" id="list">Book List</a></li>
+      <li><a href="#" id="contact-info">Contact</a></li>
+    </ul>
+  </nav>
 
-    <form id="book-form">
+  <section id="book-form" class="book-section">
+    <h1>Add a new book</h1>
+    <form>
       <h1 class="center">Add a new book</h1>
       <input for="title" type="text" id="title" required placeholder="Title"><br>
       <input for="author" type="text" id="author" required placeholder="Author"><br>
-
       <button type="submit" class="top">Add</button>
     </form>
-  </div>
+  </section>
+
+  <section id="book-list" class="book-section">
+    <h1>All awesome books</h1>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h1>Contact information</h1>
+  </section>
+
+  <footer>
+    <p>lalalalalal</p>
+  </footer>
+
   <script type="module" src="script.js"></script>
+  <script type="module" src="navigation.js"></script>
+
 </body>
 
 </html>
