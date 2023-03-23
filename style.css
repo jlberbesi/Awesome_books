@@ -1,9 +1,17 @@
-.book-form {
+#book-form {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.active {
+  display: block;
+}
+
+.hide {
+  display: none;
 }
 
 .book {
@@ -38,4 +46,16 @@ input {
 .top {
   margin-top: 3%;
   border: solid 3px;
+}
+
+#book-list {
+  display: none;
+}
+
+#contact {
+  display: none;
+}
+
+.hide {
+  display: none;
 }

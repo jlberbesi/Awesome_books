@@ -60,7 +60,3 @@ class BookList {
 }
 
 const bookList = new BookList();
-
-bookList.addEventListener('DOMContentLoaded', () => {
-  BookList();
-});
