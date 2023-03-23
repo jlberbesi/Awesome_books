@@ -59,4 +59,6 @@ class BookList {
   }
 }
 
+/* eslint-disable no-unused-vars */
 const bookList = new BookList();
+/* eslint-disable no-unused-vars */
