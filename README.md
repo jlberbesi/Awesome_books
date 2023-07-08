@@ -30,7 +30,7 @@
 # 📖 [Awesome Boook] <a name="about-project"></a>
 
 
-**[Awesome Boook]** "Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list.
+**[Awesome Boook]** "Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list
 
 ## 🛠 Built With <a name="built-with"></a>
 
