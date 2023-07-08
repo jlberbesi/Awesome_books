@@ -42,7 +42,8 @@ HTML and Javascript vanilla.
 
 ### Key Features <a name="key-features"></a>
 
-- **[Js and objects]**
+- **[Plain JS with objects]**
+- **[JavaScript classes]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
