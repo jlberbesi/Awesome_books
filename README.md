@@ -95,6 +95,13 @@ https://github.com/
 - Twitter: [@imberbesi](https://twitter.com/imberbesi)
 - LinkedIn: [in/jlberbesi](https://www.linkedin.com/in/jlberbesi)
 
+👤 ** Joaquin Calle Aranzolo **
+
+- GitHub: [@Joaquin123455](https://github.com/Joaquin123455)
+- Twitter: [@CalleJoaquinn](https://twitter.com/CalleJoaquinn)
+- LinkedIn: [in/joaquin-calle-aranzolo](https://www.linkedin.com/in/joaquin-calle-aranzolo-695bba260/)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
