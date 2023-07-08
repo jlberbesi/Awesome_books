@@ -15,11 +15,11 @@
 }
 
 .book {
-  background-color: gainsboro;
+  background-color: white;
   width: 400px;
   border: solid 1px;
   list-style: none;
-  padding: 5px 5px 5px 5px;
+  padding: 10px 10px 10px 10px;
 }
 
 button {
@@ -99,8 +99,8 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50%; /* establecemos una altura del 50% de la pantalla */
-  margin: auto 0; /* establecemos un margen superior e inferior automático para centrar el section en vertical */
+  height: 50%; 
+  margin: auto 0;
 }
 
 footer {
