@@ -56,6 +56,3 @@ function addBookToCollection(event) {
 
 // Display the initial book list
 displayBooks();
-
-// Add an event listener to the form submission
-addBookForm.addEventListener('submit', addBookToCollection);
