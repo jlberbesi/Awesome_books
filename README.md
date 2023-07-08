@@ -42,7 +42,7 @@ HTML and Javascript vanilla.
 
 ### Key Features <a name="key-features"></a>
 
-- **[Plain JS with objects]**
+- **[Js and objects]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
