@@ -89,7 +89,7 @@ https://github.com/
 - LinkedIn: [Joaquin Calle Aranzolo](https://www.linkedin.com/in/joaquin-calle-aranzolo-695bba260/)
 
 
-👤 ** Jose Luis Berbesí **
+👤 **Jose Luis Berbesí**
 
 - GitHub: [@jlberbesi](https://github.com/)
 - Twitter: [@imberbesi](https://twitter.com/imberbesi)
