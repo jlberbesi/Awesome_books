@@ -82,11 +82,11 @@ https://github.com/
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 ** Marco Almada **
+👤 **Joaquin Calle Aranzolo**
 
-- GitHub: [@MarcoDDM](https://github.com/MarcoDDM)
-- Twitter: [@nerdpiola](https://twitter.com/nerdpiola)
-- LinkedIn: [in/marcoalmadaar](https://www.linkedin.com/in/marcoalmadaar/)
+- GitHub: [Joaquin123455](https://github.com/Joaquin123455)
+- Twitter: [@CalleJoaquinn](https://twitter.com/CalleJoaquinn)
+- LinkedIn: [Joaquin Calle Aranzolo](https://www.linkedin.com/in/joaquin-calle-aranzolo-695bba260/)
 
 
 👤 ** Jose Luis Berbesí **
