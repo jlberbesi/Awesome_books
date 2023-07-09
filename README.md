@@ -72,8 +72,38 @@ Walking through portfolio outline.
 
 To get a local copy up and running, follow these steps.
 
-Use Git or checkout with SVN using the web URL.
-https://github.com/
+### Prerequisites
+
+In order to run this project you need:
+
+- You need to have NodeJS installed
+- A Web Browser (Google Chrome, Firefox, etc)
+- A Code Editor (Notepad++, VSCode, etc)
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```
+cd your folder_name
+git clone https://github.com/WilfriedM01/Portfolio-project.git
+```
+
+### Install
+
+Install this project with:
+
+```
+npm install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+Double-click on the index file (index.html)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -150,3 +180,5 @@ Give a ⭐️ if you like this project!
 This project is [MIT](https://github.com/jlberbesi/Awesome_books.github.io/blob/refactored_classes/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
