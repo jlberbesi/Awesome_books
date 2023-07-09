@@ -86,7 +86,7 @@ Clone this repository to your desired folder:
 
 ```
 cd your folder_name
-git clone https://github.com/WilfriedM01/Portfolio-project.git
+git clone git@github.com:jlberbesi/Awesome_books.github.io.git
 ```
 
 ### Install
