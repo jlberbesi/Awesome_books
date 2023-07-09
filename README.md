@@ -30,7 +30,7 @@
 # 📖 [Awesome Boook] <a name="about-project"></a>
 
 
-**[Awesome Boook]** "Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list.
+**[Awesome Boook]** "Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -72,8 +72,38 @@ Walking through portfolio outline.
 
 To get a local copy up and running, follow these steps.
 
-Use Git or checkout with SVN using the web URL.
-https://github.com/
+### Prerequisites
+
+In order to run this project you need:
+
+- You need to have NodeJS installed
+- A Web Browser (Google Chrome, Firefox, etc)
+- A Code Editor (Notepad++, VSCode, etc)
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```
+cd your folder_name
+git clone git@github.com:jlberbesi/Awesome_books.github.io.git
+```
+
+### Install
+
+Install this project with:
+
+```
+npm install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+Double-click on the index file (index.html)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -82,14 +112,14 @@ https://github.com/
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 ** Marco Almada **
+👤 **Joaquin Calle Aranzolo**
 
-- GitHub: [@MarcoDDM](https://github.com/MarcoDDM)
-- Twitter: [@nerdpiola](https://twitter.com/nerdpiola)
-- LinkedIn: [in/marcoalmadaar](https://www.linkedin.com/in/marcoalmadaar/)
+- GitHub: [Joaquin123455](https://github.com/Joaquin123455)
+- Twitter: [@CalleJoaquinn](https://twitter.com/CalleJoaquinn)
+- LinkedIn: [Joaquin Calle Aranzolo](https://www.linkedin.com/in/joaquin-calle-aranzolo-695bba260/)
 
 
-👤 ** Jose Luis Berbesí **
+👤 **Jose Luis Berbesí**
 
 - GitHub: [@jlberbesi](https://github.com/)
 - Twitter: [@imberbesi](https://twitter.com/imberbesi)
@@ -150,3 +180,5 @@ Give a ⭐️ if you like this project!
 This project is [MIT](https://github.com/jlberbesi/Awesome_books.github.io/blob/refactored_classes/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
